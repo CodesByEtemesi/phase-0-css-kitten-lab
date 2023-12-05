@@ -1,5 +1,8 @@
 /* Select the image with a class of kitty-1 */
 write-your-selector-here {
+  #kitty-1{
+    position: relative;
+  }
   position: absolute;
   z-index: 1;
   top: 276px;
@@ -8,6 +11,9 @@ write-your-selector-here {
 
 /* Select the image with id of kitty-2 */
 write-your-selector-here {
+  #kitty-2{
+    position: relative;
+  }
   position: absolute;
   z-index: 2;
   top: 212px;
@@ -16,6 +22,9 @@ write-your-selector-here {
 
 /* Select the image inside the element with an id of basket (using its descendent relationship) */
 write-your-selector-here {
+  #basket{
+    position: absolute;
+  }
   position: absolute;
   z-index: 5;
   top: 291px;
